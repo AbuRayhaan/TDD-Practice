@@ -1,6 +1,6 @@
 const calculator = require('./calculator.js');
 
-describe('calculator', () => { 
+describe('calculator', () => {
   test('Addition', () => {
     expect(calculator.add(1, 2)).toBe(3);
   });
@@ -15,9 +15,5 @@ describe('calculator', () => {
 
   test('Division', () => {
     expect(calculator.divide(12, 4)).toBe(3);
-  })
-/*
-  test('Division', () => {
-    expect(calculator.divide(0, 4)).toThrow('Mathematical Error');
-  }) */
+  });
 });

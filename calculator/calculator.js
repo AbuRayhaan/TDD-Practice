@@ -12,11 +12,8 @@ const calculator = {
   },
 
   divide(a, b) {
-    /* if (a === 0) {
-      throw new Error('Mathematical Error');
-    } else { */
-      return a / b;
-    }
-}
+    return a / b;
+  },
+};
 
 module.exports = calculator;
